@@ -23,6 +23,7 @@ N: Number of global branch history register bits
 M2: Number of PC bits for bimodal table
 
 For example:
+
 ./sim bimodal 6 harrys_gcc_trace_test.txt
 
 ./sim gshare 9 3 harrys_gcc_trace_test.txt
@@ -35,18 +36,15 @@ For example:
 Trace file Input Format
 The simulator reads trace files in the following format:
 
-text
 <hex branch PC> t|n
-<hex branch PC> t|n
-...
 
 <hex branch PC>: Branch instruction address in memory
+
 t: Branch was taken
+
 n: Branch was not taken
 
-See the harrys_gcc_trace_test.txt 
-
-
+To learn more: see the harrys_gcc_trace_test.txt 
 
 ---------------------------------
 Output
