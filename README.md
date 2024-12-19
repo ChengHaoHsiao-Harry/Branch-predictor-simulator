@@ -18,8 +18,11 @@ To run the trace file:
    type "./sim hybrid <K> <M1> <N> <M2> <tracefile>"
 
 K: Number of PC bits used to index the chooser table
+
 M1: Number of PC bits for gshare table
+
 N: Number of global branch history register bits
+
 M2: Number of PC bits for bimodal table
 
 For example:
