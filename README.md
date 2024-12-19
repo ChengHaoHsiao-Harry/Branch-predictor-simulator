@@ -24,7 +24,9 @@ M2: Number of PC bits for bimodal table
 
 For example:
 ./sim bimodal 6 harrys_gcc_trace_test.txt
+
 ./sim gshare 9 3 harrys_gcc_trace_test.txt
+
 ./sim hybrid 8 14 10 5 harrys_gcc_trace_test.txt
 
 
