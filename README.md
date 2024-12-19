@@ -53,8 +53,11 @@ The simulator outputs:
   1.Simulator command and configuration
   
   2.Performance measurements:
+  
     Number of predictions
+    
     Number of mispredictions
+    
     Misprediction rate
     
   3.Final contents of the branch predictor
