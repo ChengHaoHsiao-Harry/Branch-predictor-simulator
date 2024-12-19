@@ -36,9 +36,9 @@ For example:
 Trace file Input Format
 The simulator reads trace files in the following format:
 
-<hex branch PC> t|n
+<hex: branch PC> t|n
 
-<hex branch PC>: Branch instruction address in memory
+<hex: branch PC>: Branch instruction address in memory
 
 t: Branch was taken
 
@@ -49,11 +49,14 @@ To learn more: see the harrys_gcc_trace_test.txt
 ---------------------------------
 Output
 The simulator outputs:
+
   1.Simulator command and configuration
+  
   2.Performance measurements:
     Number of predictions
     Number of mispredictions
     Misprediction rate
+    
   3.Final contents of the branch predictor
 
    
